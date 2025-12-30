@@ -1,63 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surma Cloud Services</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; }
-        header { background: #1e3a8a; color: white; padding: 20px 0; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        section { padding: 60px 20px; text-align: center; }
-        .service { margin: 40px 0; }
-        .service h3 { color: #1e3a8a; }
-        footer { background:#111827; color:white; text-align:center; padding:20px 0; margin-top:40px; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services | Surma Cloud</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+body { font-family: "Segoe UI", Arial, sans-serif; margin:0; color:#1f2937; }
+header { background:#0f172a; color:white; padding:20px 0; }
+nav { max-width:1100px; margin:auto; padding:0 20px; display:flex; justify-content:space-between; }
+nav a { color:white; margin-left:20px; text-decoration:none; }
+section { max-width:1100px; margin:auto; padding:70px 20px; }
+.services {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap:30px;
+}
+.card {
+    background:#f9fafb;
+    padding:30px;
+    border-radius:10px;
+}
+.card i {
+    font-size:26px;
+    color:#2563eb;
+    margin-bottom:15px;
+}
+footer { background:#020617; color:#9ca3af; text-align:center; padding:25px 0; }
+</style>
 </head>
+
 <body>
 
 <header>
-    <h1>Surma Cloud</h1>
-    <nav>
+<nav>
+    <h2>Surma Cloud</h2>
+    <div>
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
         <a href="contact.html">Contact</a>
-    </nav>
+    </div>
+</nav>
 </header>
 
 <section>
-    <h2>Our Services</h2>
+<h1>Our Services</h1>
+<p>Comprehensive digital marketing solutions designed for scalability and performance.</p>
 
-    <div class="service">
-        <h3>SEO Optimization</h3>
-        <p>Improve your search engine ranking and attract high-quality traffic to your website.</p>
-    </div>
+<div class="services">
 
-    <div class="service">
-        <h3>Lead Generation</h3>
-        <p>Generate qualified leads using targeted campaigns to boost your business growth.</p>
-    </div>
+<div class="card">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <h3>SEO Optimization</h3>
+    <p>Technical and content-driven SEO strategies to increase organic visibility.</p>
+</div>
 
-    <div class="service">
-        <h3>Email Campaigns</h3>
-        <p>Engage your audience with personalized email campaigns designed for conversions.</p>
-    </div>
+<div class="card">
+    <i class="fa-solid fa-users"></i>
+    <h3>Lead Generation</h3>
+    <p>High-intent lead funnels using conversion-focused campaigns.</p>
+</div>
 
-    <div class="service">
-        <h3>Paid Ads Management</h3>
-        <p>Optimize your ad spend and reach your target audience effectively across platforms.</p>
-    </div>
+<div class="card">
+    <i class="fa-solid fa-envelope"></i>
+    <h3>Email Campaigns</h3>
+    <p>Automated and segmented email strategies that nurture and convert.</p>
+</div>
 
-    <div class="service">
-        <h3>Social Media Growth</h3>
-        <p>Increase brand awareness, engagement, and followers on major social platforms.</p>
-    </div>
+<div class="card">
+    <i class="fa-solid fa-rectangle-ad"></i>
+    <h3>Paid Advertising</h3>
+    <p>ROI-focused Google, Meta, and social ad management.</p>
+</div>
+
+<div class="card">
+    <i class="fa-solid fa-share-nodes"></i>
+    <h3>Social Media Growth</h3>
+    <p>Content and growth strategies to build authority and engagement.</p>
+</div>
+
+</div>
 </section>
 
 <footer>
-    <p>&copy; 2025 Surma Cloud. All Rights Reserved.</p>
+<p>© 2025 Surma Cloud. All rights reserved.</p>
 </footer>
 
 </body>
 </html>
-
