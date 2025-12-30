@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Surma Cloud</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; }
+        header { background: #1e3a8a; color: white; padding: 20px 0; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        section { padding: 60px 20px; text-align: center; }
+        form { max-width: 500px; margin: 0 auto; text-align: left; }
+        input, textarea { width: 100%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px; }
+        button { padding:10px 20px; background:#1e3a8a; color:white; border:none; border-radius:5px; cursor:pointer; }
+        footer { background:#111827; color:white; text-align:center; padding:20px 0; margin-top:40px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Surma Cloud</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+    <h2>Contact Us</h2>
+    <p>Get in touch to discuss your digital marketing needs and start growing your brand.</p>
+
+    <form>
+        <label>Name</label>
+        <input type="text" placeholder="Your Name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Your Email" required>
+
+        <label>Message</label>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Surma Cloud. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

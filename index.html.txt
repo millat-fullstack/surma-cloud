@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surma Cloud - Digital Marketing Agency</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; }
+        header { background: #1e3a8a; color: white; padding: 20px 0; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        section { padding: 60px 20px; text-align: center; }
+        .hero { background: #3b82f6; color: white; padding: 100px 20px; }
+        .btn { display:inline-block; padding:10px 20px; background:#1e3a8a; color:white; text-decoration:none; margin-top:20px; border-radius:5px; }
+        footer { background:#111827; color:white; text-align:center; padding:20px 0; margin-top:40px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Surma Cloud</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Grow Your Brand Globally</h2>
+    <p>Surma Cloud helps international brands expand their online presence efficiently through SEO, lead generation, email campaigns, paid ads, and social media growth.</p>
+    <a href="contact.html" class="btn">Get Started</a>
+</section>
+
+<section>
+    <h2>Why Choose Surma Cloud?</h2>
+    <p>We provide data-driven and result-focused digital marketing solutions to ensure your brand reaches the right audience at the right time.</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Surma Cloud. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surma Cloud Services</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; }
+        header { background: #1e3a8a; color: white; padding: 20px 0; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        section { padding: 60px 20px; text-align: center; }
+        .service { margin: 40px 0; }
+        .service h3 { color: #1e3a8a; }
+        footer { background:#111827; color:white; text-align:center; padding:20px 0; margin-top:40px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Surma Cloud</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+    <h2>Our Services</h2>
+
+    <div class="service">
+        <h3>SEO Optimization</h3>
+        <p>Improve your search engine ranking and attract high-quality traffic to your website.</p>
+    </div>
+
+    <div class="service">
+        <h3>Lead Generation</h3>
+        <p>Generate qualified leads using targeted campaigns to boost your business growth.</p>
+    </div>
+
+    <div class="service">
+        <h3>Email Campaigns</h3>
+        <p>Engage your audience with personalized email campaigns designed for conversions.</p>
+    </div>
+
+    <div class="service">
+        <h3>Paid Ads Management</h3>
+        <p>Optimize your ad spend and reach your target audience effectively across platforms.</p>
+    </div>
+
+    <div class="service">
+        <h3>Social Media Growth</h3>
+        <p>Increase brand awareness, engagement, and followers on major social platforms.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Surma Cloud. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
